@@ -12,6 +12,7 @@ def game():
   answer = input("Let\'s begin!\nThere are three doors. Which door do you go through? Type '1', '2', or '3': ")
 # checks if the variable "answer" contains the value "1"
   if answer == "1":
+    # set path to match answer direction
     direction = 1
 # checks if the variable "answer" contains the value "2"
   elif answer == "2":
